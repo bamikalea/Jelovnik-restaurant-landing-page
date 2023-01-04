@@ -167,20 +167,18 @@ input[type=text]:active {
     height: 500px;
     width: 85%;
     margin: 0 auto;
+    position: relative;
     border-radius: 10px;
-    background: linear-gradient(179.09deg, rgba(25, 20, 33, 0) 0.78%, #191421 84.51%);
-    background-image: url(./images/map.png);
-    background-repeat: no-repeat;
+    overflow: hidden;
+    /* background: linear-gradient(179.09deg, rgba(25, 20, 33, 0) 0.78%, #191421 84.51%); */
+    /* background-image: url(./images/map.png); */
+    /* background-repeat: no-repeat;
     background-size: cover;
-    object-fit: cover;
-    position: relative
+    object-fit: cover; */
 }
-
-.expand-btn{
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    cursor: pointer;
+.map iframe{
+    width: 100%;
+    height: 500px;
 }
 
 .search-result{
@@ -303,9 +301,11 @@ footer ul li{
 
 .hero-content .opened{
     padding: .5em 1em;
-    border-radius: 2em;
+    border-radius: 1em;
     text-transform: uppercase;
     max-width: fit-content;
+    font-size: .8rem;
+    letter-spacing: .2em;
 }
 
 .hero-content h2{
