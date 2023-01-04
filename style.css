@@ -206,11 +206,13 @@ input[type=text]:active {
     border: hsla(264, 13%, 21%, 1);
     padding: 1em 1.5em;
     border-radius: 5px;
+    border: 1px solid #1F1B25;
+    transition:  .2s ease;
 }
 
 .card:hover{
     background: hsl(263, 18%, 18%);
-    border: .5px solid #FFBE30;
+    border: 1px solid #FFBE30;
 }
 
 .card .name{
@@ -396,11 +398,12 @@ footer ul li{
     /* width: 550px; */
     height: 240px;
     border-radius: 5px;
+    border: 1px solid #1F1B25;
     transition: .5s ease;
 }
 
 .menu-card:hover{
-    border: .5px solid #FFBE30;
+    border: 1px solid #FFBE30;
 }
 
 .details {
